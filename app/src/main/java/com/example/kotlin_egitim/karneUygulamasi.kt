@@ -1,4 +1,4 @@
-package com.example.kotlin_egitim.ui.theme
+package com.example.kotlin_egitim
 
 import java.util.Scanner
 
