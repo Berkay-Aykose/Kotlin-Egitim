@@ -4,10 +4,14 @@ import java.util.Scanner
 
 fun main()
 {
-    val dersler = Array<String>(5) {""}//{"","","","",""}
-    val notlar = Array<Int>(5) {0}//{0,0,0,0,0}
-
     val girdi = Scanner(System.`in`)
+
+    println("Kaç ders girmek istersiniz?")
+    val x = girdi.nextInt()
+    val dersler = Array<String>(x) {""}//{"","","","",""}
+    val notlar = Array<Int>(x) {0}//{0,0,0,0,0}
+
+
 
     //count() dizi kaç elamlı bulmaya yarar
     for (i in 0  until dersler.count())//0,1,2,3,4
